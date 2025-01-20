@@ -1,7 +1,7 @@
 import os
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-from utils import load_yaml_config, create_methods
+from dynamic_agent_crew.utils import load_yaml_config, create_methods
 
 
 @CrewBase
