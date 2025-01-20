@@ -1,19 +1,19 @@
 [project]
-name = "guga_agent"
+name = "dynamic_agent_crew"
 version = "0.1.0"
-description = "guga_agent using crewAI"
-authors = [{ name = "Your Name", email = "you@example.com" }]
+description = "dynamic_agent_crew using crewAI"
+authors = [{ name = "Gustavo Mistrinelli", email = "gmistrinelli@gmail.com" }]
 requires-python = ">=3.10,<3.13"
 dependencies = [
     "crewai[tools]>=0.95.0,<1.0.0"
 ]
 
 [project.scripts]
-guga_agent = "guga_agent.main:run"
-run_crew = "guga_agent.main:run"
-train = "guga_agent.main:train"
-replay = "guga_agent.main:replay"
-test = "guga_agent.main:test"
+dynamic_agent_crew = "dynamic_agent_crew.main:run"
+run_crew = "dynamic_agent_crew.main:run"
+train = "dynamic_agent_crew.main:train"
+replay = "dynamic_agent_crew.main:replay"
+test = "dynamic_agent_crew.main:test"
 
 [build-system]
 requires = ["hatchling"]
