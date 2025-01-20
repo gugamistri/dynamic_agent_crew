@@ -1,0 +1,8 @@
+agents:
+  - researcher
+  - reporting_analyst
+tasks:
+  - research_task
+  - reporting_task
+process: sequential
+verbose: true
