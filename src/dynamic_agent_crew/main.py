@@ -2,7 +2,7 @@
 import sys
 import warnings
 
-from guga_agent.crew import DynamicAgentCrew
+from dynamic_agent_crew.crew import DynamicAgentCrew
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
